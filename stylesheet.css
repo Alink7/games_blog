@@ -8,6 +8,7 @@ html{
 }
 
 body{
+	font-family: Arial;
 	color:#999;
 	background: rgb(255,255,255);
 }
@@ -16,6 +17,15 @@ body{
 	text-align: center;
 	padding: 40px 0px 30px;
 	width: 100%;
+}
+
+#header h1{
+
+	color: rgba(200, 20, 20, 0.8);
+	text-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+	font-size: 4em;
+	font-family: 'Press Start 2P', cursive;
+	margin: 20px;
 }
 
 #mainMenu ul li:first-child{
@@ -27,7 +37,73 @@ body{
 	padding: 0px 10px 0px 10px;
 	border-right: solid 1px #333;
 }
+
 input{
-	width: 50%;
+	margin: 20px;
+	padding: 20px;
+	font-size: 23px;
+	border-radius: 10px;
+	width: 70%;
+	box-shadow: 0px 0px 10px rgba(150, 20, 20, 0.8);
+}
+
+#main{
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0px 20px;
+}
+
+#mainInsite{
+
+	padding: 20px 0px 20px;
+	text-align: left;
+}
+
+#wrapper{
+
+	text-align: center;
+	
+}
+
+#wrapper .particion{
+
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	text-align: right;
+}
+
+.particion{
+
+	margin: 0.5em;
+	background-color: rgb(190, 20, 20);
+	padding: 10px 20px 10px 20px;
+	box-shadow: 7px 5px 1px rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+}
+
+.particion h1{
+
+	color: #000000;
+	text-align: left;
+	padding-bottom: 10px;
+	text-shadow: none;
+	border-bottom: 1px solid #fff;
+}
+
+.particion p{
+
+	padding-top: 10px;
+	text-align: left;
+	color: #fff;
+
+}
+
+button{
+	border: none;
+	padding: 10px; 
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
 }
 
