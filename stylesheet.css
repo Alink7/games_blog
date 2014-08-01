@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	height:100%; 
+}
+
+body{
+	color:#999;
+	background: rgb(255,255,255);
+}
+
+#header{
+	text-align: center;
+	padding: 40px 0px 30px;
+	width: 100%;
+}
+
+#mainMenu ul li:first-child{
+	border-left: solid 1px #333;
+}
+
+#mainMenu ul li{
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+	border-right: solid 1px #333;
+}
+input{
+	width: 50%;
+}
+
